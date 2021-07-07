@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>Home work 2</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Create Playlist</h1>
+        
+            <form>
+                <div class="form-group">
+                    <p>Title</p>
+                    <input type="text">
+                </div>
+                <div class="form-group">
+                    <p>Desc</p>
+                    <input type="text">
+                </div>
+                <button type="submit" onclick="alert('Playlist Created!')">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="fetch">
+        <span onClick="dataShow()">Click me for fetch data!</span>
+    </div>
+
+    <div class="playlist">
+        <div class="play-item">
+            <div class="img">
+                <img src="https://i.ytimg.com/vi/PZDATPY4WZo/maxresdefault.jpg" alt="image">
+            </div>
+            <div class="text">
+                <h3 class="playlist-title">Blackpink</h3>
+                <p class="artist">Rose, Jennie Kim, Lisa, Kim Ji-soo</p>
+                <p class="album">Kill This Love</p>
+                <button type="submit">do nothing</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
