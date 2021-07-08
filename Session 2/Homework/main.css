@@ -135,7 +135,7 @@ form button:active{
     color: rgb(139, 60, 122);
     font-weight: 700;
     font-size: 14px;
-    width: 130px;
+    width: auto;
 }
 
 .play-item .text button{

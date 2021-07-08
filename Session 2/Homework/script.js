@@ -21,6 +21,10 @@ function dataShow(){
       .then(function (response) {
         // handle success
         console.log(response.data);
+        document.querySelector('.playlist-title').innerHTML = response.data.name;
+        document.querySelector('.artist').innerHTML = response.data.artists[0].name;
+        document.querySelector('.album').innerHTML = response.data.album.name;
+        document.querySelector('#playlist-image').src = response.data.album.images[0].url;
       })
       .catch(function (error) {
         // handle error
